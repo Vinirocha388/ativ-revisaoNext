@@ -1,16 +1,22 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+const roboto = localFont({
+    src: [
+        {
+            path: "../../public/fonts/Roboto-Regular.ttf",
+            weight: "400",
+            style: "normal",
+        },
+        {
+            path: "../../public/fonts/Roboto-Bold.ttf",
+            weight: "700",
+            style: "normal",
+        },
+    ],
+    variable: "--font-roboto",
+    display: "swap",
 });
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
 export const metadata = {
   title: "Loja de Eletrônicos",
   description: "Atividade de revisão de Next.js",
@@ -19,7 +25,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className={`${roboto.className}`}>
         {children}
       </body>
     </html>
