@@ -1,36 +1,142 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+ <div class="products">
+            <!-- PRODUTO 1 - SMARTPHONE -->
+            <div class="product-card" data-category="smartphones">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1632661674596-df8be070a5c5?w=300&h=200&fit=crop"
+                        alt="iPhone 15 Pro Max"
+                        style="width: 100%; height: 100%; object-fit: cover; border-radius: 4px;">
+                </div>
+                <div class="product-title">iPhone 15 Pro Max 256GB</div>
+                <div class="product-price">R$ 8.999,00</div>
+                <div class="product-description">O mais avançado iPhone já criado, com chip A17 Pro e sistema de câmeras
+                    profissional.</div>
+                <div class="product-rating">
+                    <span class="stars">⭐⭐⭐⭐⭐</span>
+                    <span>(4.8) - 1.234 avaliações</span>
+                </div>
+            </div>
 
-## Getting Started
+            <!-- PRODUTO 2 - SMARTPHONE -->
+            <div class="product-card" data-category="smartphones">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=300&h=200&fit=crop"
+                        alt="Samsung Galaxy S24 Ultra"
+                        style="width: 100%; height: 100%; object-fit: cover; border-radius: 4px;">
+                </div>
+                <div class="product-title">Samsung Galaxy S24 Ultra 512GB</div>
+                <div class="product-price">R$ 7.499,00</div>
+                <div class="product-description">Galaxy AI revolucionário, S Pen integrada e câmera de 200MP para fotos
+                    incríveis.</div>
+                <div class="product-rating">
+                    <span class="stars">⭐⭐⭐⭐⭐</span>
+                    <span>(4.7) - 987 avaliações</span>
+                </div>
+            </div>
 
-First, run the development server:
+            <!-- PRODUTO 3 - LAPTOP -->
+            <div class="product-card" data-category="laptops">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=300&h=200&fit=crop"
+                        alt="MacBook Pro" style="width: 100%; height: 100%; object-fit: cover; border-radius: 4px;">
+                </div>
+                <div class="product-title">MacBook Pro 14" M3 Pro 18GB</div>
+                <div class="product-price">R$ 15.999,00</div>
+                <div class="product-description">Performance profissional com chip M3 Pro, tela Liquid Retina XDR e
+                    bateria de longa duração.</div>
+                <div class="product-rating">
+                    <span class="stars">⭐⭐⭐⭐⭐</span>
+                    <span>(4.9) - 2.156 avaliações</span>
+                </div>
+            </div>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+            <!-- PRODUTO 4 - LAPTOP -->
+            <div class="product-card" data-category="laptops">
+                <div class="product-image">💻 Dell XPS</div>
+                <div class="product-title">Dell XPS 13 Intel i7 16GB SSD 512GB</div>
+                <div class="product-price">R$ 6.799,00</div>
+                <div class="product-description">Ultrabook premium com design ultrafino, tela InfinityEdge e performance
+                    excepcional.</div>
+                <div class="product-rating">
+                    <span class="stars">⭐⭐⭐⭐⭐</span>
+                    <span>(4.6) - 543 avaliações</span>
+                </div>
+            </div>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+            <!-- PRODUTO 5 - TABLET -->
+            <div class="product-card" data-category="tablets">
+                <div class="product-image">📱 iPad Pro</div>
+                <div class="product-title">iPad Pro 12.9" M2 WiFi 128GB</div>
+                <div class="product-price">R$ 7.299,00</div>
+                <div class="product-description">O tablet mais poderoso do mundo com chip M2, tela Liquid Retina XDR e
+                    suporte ao Apple Pencil.</div>
+                <div class="product-rating">
+                    <span class="stars">⭐⭐⭐⭐⭐</span>
+                    <span>(4.8) - 1.876 avaliações</span>
+                </div>
+            </div>
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+            <!-- PRODUTO 6 - TABLET -->
+            <div class="product-card" data-category="tablets">
+                <div class="product-image">📱 Galaxy Tab</div>
+                <div class="product-title">Samsung Galaxy Tab S9+ 256GB</div>
+                <div class="product-price">R$ 4.999,00</div>
+                <div class="product-description">Tablet premium Android com S Pen incluída, tela Dynamic AMOLED 2X e
+                    resistência à água.</div>
+                <div class="product-rating">
+                    <span class="stars">⭐⭐⭐⭐⭐</span>
+                    <span>(4.5) - 432 avaliações</span>
+                </div>
+            </div>
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+            <!-- PRODUTO 7 - ACESSÓRIO -->
+            <div class="product-card" data-category="acessorios">
+                <div class="product-image">🎧 AirPods Pro</div>
+                <div class="product-title">Apple AirPods Pro 2ª Geração</div>
+                <div class="product-price">R$ 2.399,00</div>
+                <div class="product-description">Fones sem fio com cancelamento ativo de ruído, áudio espacial e até 30h
+                    de bateria.</div>
+                <div class="product-rating">
+                    <span class="stars">⭐⭐⭐⭐⭐</span>
+                    <span>(4.7) - 3.421 avaliações</span>
+                </div>
+            </div>
 
-## Learn More
+            <!-- PRODUTO 8 - ACESSÓRIO -->
+            <div class="product-card" data-category="acessorios">
+                <div class="product-image">⌚ Apple Watch</div>
+                <div class="product-title">Apple Watch Series 9 GPS 45mm</div>
+                <div class="product-price">R$ 4.299,00</div>
+                <div class="product-description">Smartwatch mais avançado com chip S9, Double Tap, monitoramento de
+                    saúde completo.</div>
+                <div class="product-rating">
+                    <span class="stars">⭐⭐⭐⭐⭐</span>
+                    <span>(4.6) - 2.187 avaliações</span>
+                </div>
+            </div>
 
-To learn more about Next.js, take a look at the following resources:
+            <!-- PRODUTO 9 - ACESSÓRIO -->
+            <div class="product-card" data-category="acessorios">
+                <div class="product-image">🔌 Carregador</div>
+                <div class="product-title">Carregador Sem Fio MagSafe 15W</div>
+                <div class="product-price">R$ 399,00</div>
+                <div class="product-description">Carregamento sem fio rápido e seguro para iPhone, alinhamento magnético
+                    perfeito.</div>
+                <div class="product-rating">
+                    <span class="stars">⭐⭐⭐⭐⭐</span>
+                    <span>(4.4) - 876 avaliações</span>
+                </div>
+            </div>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+            <!-- PRODUTO 10 - SMARTPHONE -->
+            <div class="product-card" data-category="smartphones">
+                <div class="product-image">📱 Xiaomi</div>
+                <div class="product-title">Xiaomi 13 Pro 256GB Leica</div>
+                <div class="product-price">R$ 3.999,00</div>
+                <div class="product-description">Smartphone premium com câmeras Leica, carregamento ultra-rápido 120W e
+                    tela AMOLED.</div>
+                <div class="product-rating">
+                    <span class="stars">⭐⭐⭐⭐⭐</span>
+                    <span>(4.5) - 654 avaliações</span>
+                </div>
+            </div>
+        </div>
