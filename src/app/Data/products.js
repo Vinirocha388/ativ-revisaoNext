@@ -66,7 +66,7 @@ export const products = [
       {
         nome: "Carregador Sem Fio MagSafe 15W",
         categoria: "acessorios",
-        imagem: "🔌 Carregador",
+        imagem: "https://carrefourbr.vtexassets.com/arquivos/ids/13226212/Carregador-sem-fio-MagSafe-magnetico-fonte-usb-c-15w---c--NF.jpg?v=637484485561930000",
         preco: "399,00",
         descricao: "Carregamento sem fio rápido e seguro para iPhone, alinhamento magnético perfeito.",
         avaliacao: 5
@@ -74,7 +74,7 @@ export const products = [
       {
         nome: "Xiaomi 13 Pro 256GB Leica",
         categoria: "smartphones",
-        imagem: "📱 Xiaomi",
+        imagem: "https://m.media-amazon.com/images/I/51G7tyeELvL.jpg",
         preco: "3.999,00",
         descricao: "Smartphone premium com câmeras Leica, carregamento ultra-rápido 120W e tela AMOLED.",
         avaliacao: 5
