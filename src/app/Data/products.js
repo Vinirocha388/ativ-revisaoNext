@@ -79,18 +79,6 @@ export const products = [
         descricao: "Smartphone premium com câmeras Leica, carregamento ultra-rápido 120W e tela AMOLED.",
         avaliacao: 5
       }
-] 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+      
+]
  
