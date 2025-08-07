@@ -3,12 +3,14 @@ import styles from './page.module.css'
 import ProductCard from '@/components/ProductCard/ProductCard'
 import { products } from './Data/products'
 import {useState} from 'react'
+import Header from '@/components/Header/Header'
 
 export default function HomePage() {
   const [produtos, setProdutos] = useState(products);
      
     return (
       <main className={styles.main}>
+        <Header />
         <div className={styles.productGrid}>
           {produtos.map((produto, index) => (
             <ProductCard 

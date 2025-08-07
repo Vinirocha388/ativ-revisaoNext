@@ -1,6 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
-import Header from "../components/Header/Header.jsx";
+
 
 const roboto = localFont({
     src: [
@@ -27,7 +27,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR">
       <body className={`${roboto.className}`}>
-        <Header />
         {children}
       </body>
     </html>
